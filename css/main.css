@@ -1,0 +1,7 @@
+html, body {
+  background: #2F2F2F;  /* fallback for old browsers */
+}
+
+h1, span {
+  color: white;
+}
