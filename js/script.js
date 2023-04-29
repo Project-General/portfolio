@@ -13,3 +13,5 @@ const myTags = [
 ];
 
 var tagCloud = TagCloud('.content', myTags);
+
+// Boxed/Squared san-serif typefaces, big and bold typography, especially headings, Uppercase headings are common
