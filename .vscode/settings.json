@@ -1,4 +1,8 @@
 {
   "autoHide.autoHideSideBar": false,
-  "autoHide.autoHidePanel": false
+  "autoHide.autoHidePanel": false,
+  "editor.formatOnSave": false,
+  "[**/*.min.js]": {
+    "editor.formatOnSave": false
+  }
 }
