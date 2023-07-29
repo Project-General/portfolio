@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Manrope&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Work It</title>
+
+    <style>
+        .logo {
+            width: 9.5rem;
+            height: 2.4rem;
+        }
+
+        .hero_section {
+            background-color: #24053E;
+            padding-bottom: 32.7rem;
+            border-radius: 0 0 50% 50% / 0 0 20% 20%;
+            /* transform: scaleX(1.5); */
+            /* border: 1px solid red; */
+        }
+
+        .header_wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5.8rem 16.5rem 5.5rem 16.5rem;
+        }
+
+        .light_text{
+            color: #FFFFFF;
+        }
+
+        .marketing_content_wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 63.5rem;
+            margin: 0 auto;
+            gap: 3.7rem;
+            /* border: 1px solid red; */
+        }
+
+        .marketing_touch {
+            border-bottom: 3px solid #44FFA1;
+        }
+
+        .ring_left_svg {
+            position: absolute;
+            top: 11.6rem;
+            left: 0;
+            /* width: 27rem; */
+            /* height: 21.5rem; */
+        }
+
+        .ring_right_svg {
+            position: absolute;
+            right: 0;
+            top: 31.4rem;
+        }
+
+        .phone_wrapper {
+            /* border: 1px solid red;; */
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+
+        .phone {
+            width: 715px;
+            margin: 0 auto;
+            /* height: 427px; */
+            position: absolute;
+            margin-top: -276px;
+        }
+
+        .features_section {
+            position: relative;
+            background: #FCF8FF;
+            margin-top: -180px;
+            z-index: -1;
+            border-radius: 0 0 50% 50% / 0 0 20% 20%;
+        }
+
+        .features_container {
+            max-width: 1114px;
+            margin: 0 auto;
+            display: flex;
+            text-align: center;
+            padding-top: 40rem;
+            padding-bottom: 17.1rem;
+            gap: 2.6rem;
+        }
+
+        .borderless_card {
+            /* border: 1px solid red; */
+            display: flex;
+            flex-direction: column;
+            /* margin: 25.5rem 0 17.1rem 0; */
+            /* justify-content: space-between; */
+        }
+
+        .rounded {
+            border: 1px solid #584D62;
+            border-radius: 30.5px;
+            width: 5.6rem;
+            height: 5.6rem;
+            align-self: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .space_around {
+            margin: 56px 0 28px 0;
+        }
+
+        .cta_section {
+            margin-top: 283px;
+            margin-bottom: 121.78px;
+            display: flex;
+        }
+
+        .founder_pic {
+            width: 47.7rem;
+            height: 47.7rem;
+            border-radius: 50%;
+            background: #44FFA1;
+            position: relative;
+            bottom: 173px;
+            left: 75px;
+        }
+
+        .cta_box {
+            box-sizing: border-box;
+            width: 730px;
+            padding: 64px;
+            z-index: 1;
+            background-color: #24053E;
+            color:#FFFFFF;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            gap: 32px;
+            position: relative;
+        }
+
+        .cta_ring {
+            position: absolute;
+            width: 173px;
+            bottom: -61.74px;
+            right: 72.69px;
+        }
+
+        .social_media {
+            margin-bottom: 11rem;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: center;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <section class="hero_section">
+            <div class="header_wrapper">
+                <img src="./images/workit.svg" alt="workit logo" class="logo">
+                <button type="reset" class="btn_secondary">Apply for access</button>
+            </div>
+            <div class="marketing_content_wrapper">
+                <h1 class="light_text">Data <span class="marketing_touch">tailored</span> to your needs</h1>
+                <button type="reset" class="btn_primary">Learn more</button>
+            </div>
+            
+            <img src="./images/left-ring.svg" alt="ring" class="ring_left_svg">
+            <img src="./images/right-ring.svg" alt="ring_svg" class="ring_right_svg">
+        </section>
+        <div class="phone_wrapper">
+            <img src="./images/iphone-pro-max11png.png" alt="Iphone 11 Pro Max image" class="phone">
+        </div>
+        <section class="features_section">
+            <div class="features_container">
+                <div class="borderless_card">
+                    <h3 class="rounded"><span>1</span></h3>
+                    <h2 class="space_around">Actionable Insights</h2>
+                    <p>Optimize your products, improve customer satisfaction and stay ahead of the competition with our product data analytics.</p>
+                </div>
+                <div class="borderless_card">
+                    <h3 class="rounded"><span>2</span></h3>
+                    <h2 class="space_around">Data-driven decisions</h2>
+                    <p>Make data-driven decisions with our product data analytics. Our AI-generated reports help you unlock insights hidden in your product data.</p>
+                </div>
+                <div class="borderless_card">
+                    <h3 class="rounded"><span>3</span></h3>
+                    <h2 class="space_around">Always affordable</h2>
+                    <p>Always affordable pricing that scales with your business. Get top-quality product data analytics services without hidden costs or unexpected fees.</p>
+                </div>
+            </div>
+        </section>
+        <section class="cta_section">
+            <img 
+                src="./images/image-removebg-preview(363).png"
+                alt="Picture of the company founder"
+                class="founder_pic"
+            >
+            <div class="cta_box">
+                <h1>Be the first to test</h1>
+                <p>Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a beta tester for our app and kickstart your company. Apply for access below and I’ll be in touch to schedule a call.</p>
+                <button class="btn_primary">Apply for access</button>
+                <img src="./images/cta_ring.svg" alt="ring" class="cta_ring">
+            </div>
+        </section>
+        <footer class="footer">
+            <img src="./images/footer.svg" alt="Logo and Social media links" class="social_media">
+        </footer>
+    </main>
+</body>
+</html>
